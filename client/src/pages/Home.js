@@ -58,7 +58,7 @@ function Home() {
 
   return (
     <DefaultLayout>
-      {/* <Row className="mt-4" justify="center">
+      <Row className="mt-4" justify="center">
         <Col lg={20} sm={24} className="d-flex justify-content-left">
           <RangePicker
             // onChange={setFilter}
@@ -66,7 +66,7 @@ function Home() {
             format="MMM DD YYYY HH:mm"
           />
         </Col>
-      </Row> */}
+      </Row>
 
       {loading && <Loader />}
 
